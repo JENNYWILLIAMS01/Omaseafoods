@@ -1,0 +1,160 @@
+body{
+  width: 100%;
+  height:100%;
+  justify-content: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+}
+
+
+.topnav{
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+  transition: .35s;
+}
+
+.topnav:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.logo-wrap + div {
+  width: 40%;
+}
+
+.navtexts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0%;
+}
+
+.btnmenu{
+  display: flex;
+  height: 8%;
+  width: 8%;
+}
+
+h1,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 2.8em;
+  padding: 10px 0;
+  font-weight: 900;
+}
+
+p {
+  font-size: 2.1em;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+
+.header {
+  width: 100%;
+  height: 720px;
+  padding:90px 0;
+  text-align: center;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/02/03/76/79/1000_F_203767918_lwrpBbrQrbLRZ9mg642LynZv3zo7CtGo.jpg");
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-bgstroke {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 70px;
+  cursor: pointer;
+  font-weight: 100;
+  margin-top: 30px; 
+}
+
+.btn-bgstroke:hover {
+  background-color: black;
+  color: white;
+}
+
+#bannerimage {
+  width: 100%;
+  height: 405px;
+}
+
+
+.order{
+  background-color: #ffff;
+  border-radius:10%;
+  cursor: pointer;
+
+}
+
+.findomaseafood{
+  background-color: #ffff;
+  border-radius:10%;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  flex-direction:row;
+  justify-content: space-between;
+  
+}
+
+.searchbar{
+border-radius: 30px;
+width: 20vw;
+height: 5vh;
+outline: 1px solid rgb(238, 100, 8);
+}
+
+.input {
+  border-radius: 10px;
+  width: 80%;
+  height: max-content;
+  padding: 20px;
+  margin: auto;
+  box-sizing: content-box;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 15px;
+}
+
+
+.navtexts li {
+  /* margin-right: 30px; */
+  list-style: none;
+}
+.footertext {
+  font-size: medium;
+  font-family: monospace;
+  margin-top: 300px;
+}
+
+
+
+
+
+
