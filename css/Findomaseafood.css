@@ -1,0 +1,30 @@
+form {
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px #fff;
+    background-image: url("https://th.bing.com/th?q=Seafood+Shrimp&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=NG&setlang=en&adlt=strict&t=1&mw=247");
+    background-color: brown;
+    background-repeat: no-repeat;
+
+}
+
+  .oma-form{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    text-shadow: 4px 2px 7px brown;
+    background-color: linear-gradient(rgb(213, 12, 231), rgb(194, 27, 152) 10%, rgb(163, 28, 226) 20%);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+  }
+
+  .oma-form:last-of-type {
+    margin-top: -20px;
+  }
+
+  input[type=password], input{
+    padding: 10px;
+    margin-bottom: 7px;
+  }

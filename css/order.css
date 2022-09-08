@@ -1,0 +1,38 @@
+ form {
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px #fff;
+    background-image: url("https://th.bing.com/th/id/R.af9cd6edef4b6726404101c27a40397f?rik=x2bVXZWw7eoZ%2fQ&pid=ImgRaw&r=0");
+    background-color: brown;
+
+}
+
+  .oma-form{
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+    text-shadow: 4px 2px 7px brown;
+    background-color: linear-gradient(rgb(213, 12, 231), rgb(194, 27, 152) 10%, rgb(163, 28, 226) 20%);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+  }
+
+  .oma-form:last-of-type {
+    margin-top: -20px; 
+  }
+
+  input[type=password], input{
+    padding: 10px;
+    margin-bottom: 7px;
+  }
+  
+
+
+
+
+
+
+
+
