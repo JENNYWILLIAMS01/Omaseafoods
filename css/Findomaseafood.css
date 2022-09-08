@@ -1,21 +1,42 @@
-form {
-    border: 0;
-    padding: 12px 16px;
-    border-radius: 8px;
-    box-shadow: 4px 4px 10px #fff;
-    background-image: url("https://th.bing.com/th?q=Seafood+Shrimp&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-WW&cc=NG&setlang=en&adlt=strict&t=1&mw=247");
-    background-color: brown;
-    background-repeat: no-repeat;
-
+*{
+  padding:0;
+  margin: 0;
 }
 
-  .oma-form{
-    font-size: larger;
+html{
+  min-height: 100vh;
+  height: 100%;
+}
+body{
+  height: 100%;
+  background-image: url("https://th.bing.com/th/id/OIP.etcFqu1lJZ3l6heeAS2iQAHaFc?w=220&h=180&c=7&r=0&o=5&pid=1.7");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+
+}
+nav{
+  color: #fff;
+}
+
+form {
+    border: 0;
+    border-radius: 8px;
+    width: 60%;
+    height: 100%;
+
+}
+input{
+  background: rgba(255, 255, 255, 0.3);
+}
+.oma-form{
+    font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: brown;
-    text-shadow: 4px 2px 7px brown;
-    background-color: linear-gradient(rgb(213, 12, 231), rgb(194, 27, 152) 10%, rgb(163, 28, 226) 20%);
+    color: white;
+    text-shadow: white;
+    background-color: linear-gradient(rgb(20, 20, 20), rgb(231, 222, 229) 10%, rgb(20, 19, 20) 20%);
     text-align: center;
+    margin-bottom: 24px;
     text-transform: capitalize;
     padding: 0;
   }

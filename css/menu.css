@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.template {
+  /* border: 2px grey solid; */
+  /* width: 100%; */
+  height: 90%;
+  padding: 0;
+}
+
+.template img {
+  width: 90%;
+}
+
+.template h1 {
+  font-size: 28px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+
+.template h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.template {
+  font-size: 26px;
+}
+
+.template:nth-of-type(2) {
+  padding: 12px 24px;
+  position: relative;
+}
+
+.template:nth-of-type(1) {
+  height: 100%;
+  object-fit: cover;
+  display: fixed;
+}
+
+.template div {
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 56px;
+}
+
+.contact {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.beefNav{
+  width: 350px;
+  margin-top: 5%;
+}
+.soupNav{
+  margin-top: 10%;
+}
+.appetizerNav{
+  margin-top: 15%;
+}
+.combosNav{
+  width: 400px;
+  margin-left: 30%;
+  margin-top: 15%;
+  height: 50%;
+}
+.deepNav{
+  width: 400px;
+  margin-left: 30%;
+  margin-top: -5%;
+}
+
+.kingNav{
+  width: 400px;
+  margin-left: 30%;
+  margin-top: 10%;
+}

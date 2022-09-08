@@ -1,21 +1,45 @@
- form {
-    border: 0;
-    padding: 12px 16px;
-    border-radius: 8px;
-    box-shadow: 4px 4px 10px #fff;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  min-height: 100vh;
+  height: 100%;
+}
+
+body {
+  height: 100%;
     background-image: url("https://th.bing.com/th/id/R.af9cd6edef4b6726404101c27a40397f?rik=x2bVXZWw7eoZ%2fQ&pid=ImgRaw&r=0");
-    background-color: brown;
+}
+
+nav {
+  color: #fff;
+}
+
+form {
+    border: 0;
+    /* padding: 12px 16px; */
+    border-radius: 8px;
+    /* box-shadow: 4px 4px 10px #fff; */
+    width: 60%;
+    height: 100%;
 
 }
 
+input {
+  background: rgba(255, 255, 255, 0.3);
+}
+
   .oma-form{
-    font-size: larger;
+    font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: brown;
-    text-shadow: 4px 2px 7px brown;
-    background-color: linear-gradient(rgb(213, 12, 231), rgb(194, 27, 152) 10%, rgb(163, 28, 226) 20%);
+    color: white;
+    text-shadow: white;
+    background-color: linear-gradient(rgb(24, 26, 27), rgb(200, 207, 219) 10%, rgb(12, 13, 14) 20%);
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 24px;
     padding: 0;
   }
 
